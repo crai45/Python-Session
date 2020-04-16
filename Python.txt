@@ -1,0 +1,253 @@
+
+Jupyter Notebook path :
+C:\Users\ChandanRai\AppData\Local\Programs\Python\Python38-32\Scripts>jupyter notebook
+
+Why Python:
+Simplicity
+interpreted high level language
+python is like English paragraph
+Plenty of libraries 
+Machine learning: Prediction on outcome with ur data/Algorithm
+Python provides large no. of libraries
+Competetor of Python : R language (Analyzing the data)
+Python can help with deployment of models 
+Python supports majority of cloud providers
+API can be build using Python but frontend can't
+why only python is used in data science not other languages? : support librries
+Python is interpreted language : line by line execution(means it's compiler compiles each line)
+
+C:\Users\ChandanRai>python --version
+Python 3.8.2
+
+C:\Users\ChandanRai>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (In
+tel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print (Hi")
+  File "<stdin>", line 1
+    print (Hi")
+              ^
+SyntaxError: EOL while scanning string literal
+>>> print ("Hi")
+Hi
+>>> 5+
+  File "<stdin>", line 1
+    5+
+     ^
+SyntaxError: invalid syntax
+>>> 5+6
+11
+>>> quit()
+
+C:\Users\ChandanRai>
+C:\Users\ChandanRai>
+C:\Users\ChandanRai>python
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (In
+tel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> quit()
+
+
+save python file with .py extension
+
+C:\Users\ChandanRai\Downloads\PYTHON>python test.py
+  File "test.py", line 1
+    >>> print ("Hi")
+    ^
+SyntaxError: invalid syntax
+
+in sublime use ctrl + s to save and them ctrl + b to run the file
+
+ctrl+enter : in jupyter
+cmd mode: esc+ b : add new cell below 
+
+cmd mode: esc+ a : add new cell above
+Shift + enter 
+
+
+
+
+datatype:
+integer(without decimal) : immutable
+float : immutable
+string(text) : immutable
+list(-multiple values, collection of detaila in square bkts) : mutable
+tuple : round bkts : immutable
+dictionary(records data) - curly brkts : mutable
+set - curly brkts
+variable : underscore(_) special char` 
+boolean : true and false (T , F) : immutable
+
+PEP8: python extension praposal (Python Enhancement proposal)
+
+below function:
+type() :  to find datatype
+id(): for memory location
+
+
+Mutable : If I am able to change value at the same memory location : methods to add /update and delete
+Immutable : I ll not able to change the value at same meory location. : no method to add /update and delete
+
+List us mutable
+[10, 20, 30] 62824712
+[10, 20, 30, 50] 62824712
+
+String is immutable
+python 44065600
+java 9251616
+if we join 2 sting , still its immutable
+
+
+num =100
+print(id(num))
+num2 = 100
+print(id(num2))
+O/p
+1638006240
+1638006240
+
+num =1000
+print(id(num))
+num2 = 100
+print(id(num2))
+op:
+62895968
+1638006240
+
+num =256
+print(id(num))
+num2 = 256
+print(id(num2))
+
+op :
+1638008736
+1638008736
+=====
+
+num =257
+print(id(num))
+num2 = 257
+print(id(num2))
+op:
+62896560
+62896912
+=======
+
+0-256 , : Same memory location,
+more than 256, it owuld be diff mem location . (This concept called object intering
+
+===
+for String :
+
+s1= 'abcdef'
+s2 = 'abcdef'
+print(id(s1),id(s2))
+63637728 63637728
+==
+but for large length :
+
+=====
+
+Operators:
+Airth operators:
++,-,*,/,//,**,% 
+/: print(10/3) : 3.3333
+//: float division : print(10//3) : 3
+%: float division : print(10%3) : 1
+** : print(10**3) : 1000
+
+===
+
+d1 = {1:2,2:2}
+d2 = {1:2,2:2}
+print(d1 == d2)
+True,
+in programming :
+= : means assing the value,
+== : equal to 
+++++++
+
+a=1
+b=2
+print(a == b)
+False
+
+++++
+Interable datatype :
+1.list 
+2.tuple
+3.str
+4.dictionary
+5.set
+
+++++++++++++++++
+Day 3:
+
+Conditional Statements:
+
+IF : 
+
+total_marks = 500
+marks_scored = 300
+passing_per = 35
+per = (marks_scored/ total_marks) *100
+print(per)
+if per > passing_per :
+    print("pass")
+else:
+    print("fail")
+
+==
+Op:
+60.0
+pass
+
+: Syntax:
+id [Condition]:
+	statement1
+	statement2
+	statement3
+elseif[condition];
+	statement1
+	statmenet2
+else:
+statemnet1
+
+===
+how to find even number:
+
+num=44
+if num%1 == 0:
+    print("even")
+else:
+    print("odd")
+
+++++
+how to find vowel :
+
+char = 'b'
+if char in ['a','e', 'i', 'o','u']:
+    print("vowel")
+else:
+    print("consonent")
+
+op:
+consonent
+
++++++
+
+
+if "python":
+    print("python")
+else:
+    print("java")
+
+op:
+python
+
+
+
+
+
